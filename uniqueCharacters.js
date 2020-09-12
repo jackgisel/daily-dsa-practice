@@ -1,16 +1,16 @@
 function check(str) {
   const hash = {};
-  let firstValue = -1;
+
   str.split("").forEach((char, index) => {
     if (hash[char]) hash[char] = Infinity;
     else hash[char] = index;
   });
-  Object.values(hash).forEach((val) => {
-    if (val < firstValue && firstValue >= 0) {
-      firstValue = val;
-    }
-  });
-  return firstValue;
+
+  return hash[
+    Object.keys(hash).find((item) => {
+      return item !== Infinity;
+    })
+  ];
 }
 
 console.log(check("abcabd"), "return 2");
