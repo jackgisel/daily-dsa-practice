@@ -23,3 +23,7 @@ Using a hash map we can store the number of times a character occurs and then ru
 ### Day 6 - Intersection of Numbers
 
 Again using a hash we can store the nums in the first array. Then go through the second array marking if numbers occured again. Then returning what was recorded twice!
+
+### Day 7 - Uncommon Words
+
+Very similiar to the other problems. This solution seems really slow. I am going to research a better way of solving it.
