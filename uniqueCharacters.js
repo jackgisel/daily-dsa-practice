@@ -1,9 +1,8 @@
 function uniqueCharacters(str) {
   const hash = {};
   str.split("").forEach((ch, i) => {
-    hash[ch] = hash[ch] ? Infinity : i;
+    hash[ch] = typeof hash[ch] === "number" ? Infinity : i;
   });
-
   const min = Object.values(hash).reduce(
     (min, cur) => Math.min(min, cur),
     Infinity
@@ -15,3 +14,4 @@ function uniqueCharacters(str) {
 console.log(uniqueCharacters("abcabd"), "return 2");
 console.log(uniqueCharacters("thedailybyte"), " return 1");
 console.log(uniqueCharacters("developer"), "return 0");
+console.log(uniqueCharacters("cc"), "return -1");
