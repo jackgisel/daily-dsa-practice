@@ -27,3 +27,7 @@ Again using a hash we can store the nums in the first array. Then go through the
 ### Day 7 - Uncommon Words
 
 Very similiar to the other problems. This solution seems really slow. I am going to research a better way of solving it.
+
+### Day 8 - Merge Link Lists
+
+Now are a getting spicy :fire:!!!
