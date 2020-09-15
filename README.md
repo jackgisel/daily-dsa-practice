@@ -16,4 +16,6 @@ Use a hash to store the jewels found. Use a sum to find the number of stones are
 
 Using a hash map we can record the first index at which a character shows up. If that character has already been set we can set it equal to infinity. Then sort through the hash and find the smallest index in the hash.
 
-### Day 5 -
+### Day 5 - Spot the difference
+
+Using a hash map we can store the number of times a character occurs and then run through the map and return the character that is unique.
