@@ -1,18 +1,17 @@
-function check(str) {
+function uniqueCharacters(str) {
   const hash = {};
-
-  str.split("").forEach((char, index) => {
-    if (hash[char]) hash[char] = Infinity;
-    else hash[char] = index;
+  str.split("").forEach((ch, i) => {
+    hash[ch] = hash[ch] ? Infinity : i;
   });
 
-  return hash[
-    Object.keys(hash).find((item) => {
-      return item !== Infinity;
-    })
-  ];
+  const min = Object.values(hash).reduce(
+    (min, cur) => Math.min(min, cur),
+    Infinity
+  );
+
+  return min < Infinity ? min : -1;
 }
 
-console.log(check("abcabd"), "return 2");
-console.log(check("thedailybyte"), " return 1");
-console.log(check("developer"), "return 0");
+console.log(uniqueCharacters("abcabd"), "return 2");
+console.log(uniqueCharacters("thedailybyte"), " return 1");
+console.log(uniqueCharacters("developer"), "return 0");
