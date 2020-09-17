@@ -31,3 +31,7 @@ Very similiar to the other problems. This solution seems really slow. I am going
 ### Day 8 - Merge Link Lists
 
 Now are a getting spicy :fire:!!!
+
+### Day 9 - Remove the Nth to last node
+
+This problem is complex. To minimize time running through the list, we should use 2 counters. Space them on a size of N. When the front counter at index i + n and is the end, we can handle removing the item on the back counter.
