@@ -35,3 +35,7 @@ Now are a getting spicy :fire:!!!
 ### Day 9 - Remove the Nth to last node
 
 This problem is complex. To minimize time running through the list, we should use 2 counters. Space them on a size of N. When the front counter at index i + n and is the end, we can handle removing the item on the back counter.
+
+### Day 10 - Remove value
+
+Something similar to yesterdays problem. Use to pointers in the linked list and handle the remove when val = given val;
