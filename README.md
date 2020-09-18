@@ -41,3 +41,7 @@ This problem is complex. To minimize time running through the list, we should us
 Something similar to yesterdays problem. Use to pointers in the linked list and handle the remove when val = given val;
 
 - Coming back to this problem after seeing the better solution. You dont need to use 2 pointers because you can always check next values by checking `.next.next`.
+
+### Day 11 - First Middle Element
+
+I had previously done this problem earlier this year. Interesting concept. Basically you want to have two pointers moving through the linked list. Pointer "front" needs to be moving at 2x the speed as pointer "back", what this means is when the front hits the end the "back" pointer will have hit the middle too. And you return that value.
