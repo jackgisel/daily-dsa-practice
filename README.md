@@ -39,3 +39,5 @@ This problem is complex. To minimize time running through the list, we should us
 ### Day 10 - Remove value
 
 Something similar to yesterdays problem. Use to pointers in the linked list and handle the remove when val = given val;
+
+- Coming back to this problem after seeing the better solution. You dont need to use 2 pointers because you can always check next values by checking `.next.next`.
