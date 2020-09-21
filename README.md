@@ -45,3 +45,11 @@ Something similar to yesterdays problem. Use to pointers in the linked list and 
 ### Day 11 - First Middle Element
 
 I had previously done this problem earlier this year. Interesting concept. Basically you want to have two pointers moving through the linked list. Pointer "front" needs to be moving at 2x the speed as pointer "back", what this means is when the front hits the end the "back" pointer will have hit the middle too. And you return that value.
+
+### Day 12 - Linked List Contains a Cycle
+
+Using two pointers again we can increment them at different paces. Evenutally if they meet then the linked list contains a duplicate.
+
+### Day 13 - Linked List Cycle II
+
+:mad: This was one of the more complex problems that still hasn't really clicked for me. I am confused at the part where we increment the 2 pointers after finding the cycle. If they move at the same rate how do we ensure that they won't touch each other?
