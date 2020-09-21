@@ -53,3 +53,7 @@ Using two pointers again we can increment them at different paces. Evenutally if
 ### Day 13 - Linked List Cycle II
 
 :mad: This was one of the more complex problems that still hasn't really clicked for me. I am confused at the part where we increment the 2 pointers after finding the cycle. If they move at the same rate how do we ensure that they won't touch each other?
+
+### Day 14 - Reverse Linked List
+
+By using head, prev, next_node we can move along the linked list in linear time changing the pointers and reversing the linked list.
