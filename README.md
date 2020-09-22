@@ -57,3 +57,7 @@ Using two pointers again we can increment them at different paces. Evenutally if
 ### Day 14 - Reverse Linked List
 
 By using head, prev, next_node we can move along the linked list in linear time changing the pointers and reversing the linked list.
+
+### Day 15 - Valid Parentheses
+
+Using a stack we can iterate through the string adding opening brackets it the stack and popping the stack we can valid when a closing parenthese shows up.
