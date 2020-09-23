@@ -61,3 +61,7 @@ By using head, prev, next_node we can move along the linked list in linear time 
 ### Day 15 - Valid Parentheses
 
 Using a stack we can iterate through the string adding opening brackets it the stack and popping the stack we can valid when a closing parenthese shows up.
+
+### Day 16 - Compare Keystrokes
+
+Given two strings s and t compare the 2 strings given that # is a backspace. To solve this we could iterate through both of the strings seperatly using stacks to compare their differences, but this would be a O(4\*N) solution which I know is just O(N), but I think we might be able to solve this using 1 loop through the strings.
