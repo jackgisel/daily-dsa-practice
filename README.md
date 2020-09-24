@@ -65,3 +65,7 @@ Using a stack we can iterate through the string adding opening brackets it the s
 ### Day 16 - Compare Keystrokes
 
 Given two strings s and t compare the 2 strings given that # is a backspace. To solve this we could iterate through both of the strings seperatly using stacks to compare their differences, but this would be a O(4\*N) solution which I know is just O(N), but I think we might be able to solve this using 1 loop through the strings.
+
+### Day 17 - Remove all adjacent duplicates
+
+This problem seems pretty simple after completing this weeks **stack** problems. Use a stack to build our word based on the current and previous character.
